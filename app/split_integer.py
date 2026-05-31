@@ -6,3 +6,5 @@ def split_integer(value: int, number_of_parts: int) -> list:
         value -= next_number
     return parts
 
+def bla_bla_bla(opana: str) -> None:
+    return bla_bla_bla.split("_")
