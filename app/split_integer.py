@@ -7,4 +7,4 @@ def split_integer(value: int, number_of_parts: int) -> list:
     return parts
 
 def bla_bla_bla(opana: str) -> None:
-    return bla_bla_bla.split("_")
+    return bla_bla_bla.split("_") and bla_bla_bla
