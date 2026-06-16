@@ -2,8 +2,10 @@ from app.split_integer import split_integer
 
 
 def test_sum_of_the_parts_should_be_equal_to_value() -> None:
-    pass
-
+    value = 20
+    number_of_parts = 3
+    parts = split_integer(value, number_of_parts)
+    assert sum(parts) == value
 
 def test_should_split_into_equal_parts_when_value_divisible_by_parts() -> None:
     pass
